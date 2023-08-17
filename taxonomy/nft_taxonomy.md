@@ -15,3 +15,15 @@ Track top NFT projects [here](https://cryptoslam.io) </br>
     -   *
 -   Supply Chain Attacks
     -    * An attack that relies upon malicous or vulnerable code and uses the trust of third party code. This can affect software and hardware wallets. 
+
+-  Man in The Middle Attack
+    -    * An attack in which the attacker attempts to intercept comunications between the user and browser. This can be used to intercept a wallet private key and steal NFTS if traffic is not properly encrypted.
+
+-  Token ID Spoofing
+    -    * Scammers can trick users into buying a fake NFT by spoofing the unique token ID of said NFT. These NFTS can look the exact same as the original and will typically lead to the victim paying exorbitant amounts of money for the fake NFT.
+
+-   Blockchain Reorganization Attacks
+    -    * A blockchain reorganization typically occurs when one or more blocks is replaced by a new version. This new version has to be under the longest chain rule. The chain may not contain the same set of transactions as the old chain. Meaning that any old NFT transactions could be removed resulting in a delay on the ledger. Which could be used to hide front running.
+
+-   Front Running Attacks
+    -  * An attack in which the attacker will examine the memory pool where unconfirmed transactions lay. Then they will pay to have their transaction moved up, therefore passing any unconfimed transactions.
